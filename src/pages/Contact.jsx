@@ -14,7 +14,7 @@ export default function Contact() {
             <section>
               <h3 className="font-label text-xs uppercase tracking-widest text-outline mb-6">Technical Nodes</h3>
               <div className="space-y-6">
-                <a className="flex items-center group" href="#">
+                <a className="flex items-center group" href="https://github.com/sammy-np">
                   <div className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center mr-4 group-hover:bg-primary/10 transition-colors">
                     <span className="material-symbols-outlined text-primary">terminal</span>
                   </div>
@@ -23,13 +23,13 @@ export default function Contact() {
                     <p className="font-headline text-on-surface group-hover:text-primary transition-colors">/qa-architect-main</p>
                   </div>
                 </a>
-                <a className="flex items-center group" href="#">
+                <a className="flex items-center group" href="https://www.linkedin.com/in/saiyam-basnet07/">
                   <div className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center mr-4 group-hover:bg-primary/10 transition-colors">
                     <span className="material-symbols-outlined text-primary">account_tree</span>
                   </div>
                   <div>
                     <p className="font-label text-xs text-outline uppercase tracking-widest">LinkedIn</p>
-                    <p className="font-headline text-on-surface group-hover:text-primary transition-colors">/in/precision-engineer</p>
+                    <p className="font-headline text-on-surface group-hover:text-primary transition-colors">/in/saiyam-basnet07</p>
                   </div>
                 </a>
                 <div className="flex items-center">
@@ -38,7 +38,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-label text-xs text-outline uppercase tracking-widest">Direct</p>
-                    <p className="font-headline text-on-surface">hello@qa-architect.io</p>
+                    <p className="font-headline text-on-surface">saiyambasnet@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default function Contact() {
                 <span className="text-sm font-headline text-on-surface">Available for projects</span>
               </div>
               <p className="text-xs text-on-surface-variant font-body leading-relaxed">
-                Current Response Latency: <br/>
+                Current Response Latency: <br />
                 <span className="text-on-surface font-label">&lt; 24 Hours</span>
               </p>
             </div>
@@ -64,16 +64,16 @@ export default function Contact() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                 <div className="group relative">
                   <label className="block font-label text-xs text-outline uppercase tracking-widest mb-2 ml-1">Identity</label>
-                  <input className="w-full bg-surface-container-lowest border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-all px-4 py-3 font-body text-on-surface placeholder:text-outline-variant/50" placeholder="Your Name" type="text"/>
+                  <input className="w-full bg-surface-container-lowest border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-all px-4 py-3 font-body text-on-surface placeholder:text-outline-variant/50" placeholder="Your Name" type="text" />
                 </div>
                 <div className="group relative">
                   <label className="block font-label text-xs text-outline uppercase tracking-widest mb-2 ml-1">Response Node</label>
-                  <input className="w-full bg-surface-container-lowest border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-all px-4 py-3 font-body text-on-surface placeholder:text-outline-variant/50" placeholder="Email Address" type="email"/>
+                  <input className="w-full bg-surface-container-lowest border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-all px-4 py-3 font-body text-on-surface placeholder:text-outline-variant/50" placeholder="Email Address" type="email" />
                 </div>
               </div>
               <div className="mb-8">
                 <label className="block font-label text-xs text-outline uppercase tracking-widest mb-2 ml-1">Log Subject</label>
-                <input className="w-full bg-surface-container-lowest border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-all px-4 py-3 font-body text-on-surface placeholder:text-outline-variant/50" placeholder="Technical Inquiry / Collaboration / Project" type="text"/>
+                <input className="w-full bg-surface-container-lowest border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-all px-4 py-3 font-body text-on-surface placeholder:text-outline-variant/50" placeholder="Technical Inquiry / Collaboration / Project" type="text" />
               </div>
               <div className="mb-10">
                 <label className="block font-label text-xs text-outline uppercase tracking-widest mb-2 ml-1">Detailed Payload</label>
