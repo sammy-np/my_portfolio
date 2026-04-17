@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>QA Architect | Precision Testing &amp; Automation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&amp;family=Space+Grotesk:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed-dim": "#7da0ff",
+                        "on-background": "#ecedf6",
+                        "on-surface": "#ecedf6",
+                        "outline": "#73757d",
+                        "primary-fixed-dim": "#00c3eb",
+                        "primary": "#6dddff",
+                        "on-primary-fixed": "#002c37",
+                        "inverse-primary": "#00687e",
+                        "primary-fixed": "#00d2fd",
+                        "on-tertiary-container": "#001747",
+                        "surface-variant": "#22262f",
+                        "on-error": "#490006",
+                        "tertiary-container": "#6f94fa",
+                        "error-dim": "#d7383b",
+                        "on-tertiary-fixed-variant": "#003388",
+                        "on-secondary-container": "#cbd0e1",
+                        "surface-bright": "#282c36",
+                        "surface-dim": "#0b0e14",
+                        "on-secondary-fixed-variant": "#565b69",
+                        "primary-container": "#00d2fd",
+                        "tertiary-fixed": "#92aeff",
+                        "secondary-fixed-dim": "#cfd4e5",
+                        "on-surface-variant": "#a9abb3",
+                        "secondary": "#dde2f3",
+                        "secondary-fixed": "#dde2f3",
+                        "secondary-dim": "#cfd4e5",
+                        "surface-container-lowest": "#000000",
+                        "on-tertiary-fixed": "#001442",
+                        "primary-dim": "#00c3eb",
+                        "on-secondary": "#4c525f",
+                        "outline-variant": "#45484f",
+                        "surface-container-low": "#10131a",
+                        "inverse-on-surface": "#52555c",
+                        "tertiary-dim": "#759aff",
+                        "error-container": "#9f0519",
+                        "inverse-surface": "#f9f9ff",
+                        "on-secondary-fixed": "#393f4c",
+                        "surface": "#0b0e14",
+                        "on-primary-fixed-variant": "#004c5d",
+                        "on-tertiary": "#002363",
+                        "background": "#0b0e14",
+                        "tertiary": "#82a3ff",
+                        "on-primary": "#004c5e",
+                        "secondary-container": "#414754",
+                        "surface-tint": "#6dddff",
+                        "surface-container-highest": "#22262f",
+                        "surface-container": "#161a21",
+                        "on-primary-container": "#004352",
+                        "surface-container-high": "#1c2028",
+                        "error": "#ff716c",
+                        "on-error-container": "#ffa8a3"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #0b0e14;
+            color: #ecedf6;
+            font-family: 'Inter', sans-serif;
+        }
+        .glass-card {
+            background: rgba(34, 38, 47, 0.4);
+            backdrop-filter: blur(12px);
+        }
+        .dot-pattern {
+            background-image: radial-gradient(#45484f 1px, transparent 1px);
+            background-size: 24px 24px;
+            opacity: 0.1;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 bg-[#0b0e14]/70 backdrop-blur-xl bg-gradient-to-b from-[#10131a] to-transparent">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 h-20">
+<div class="text-xl font-bold tracking-tighter text-[#6dddff] font-headline">QA_ARCHITECT</div>
+<div class="hidden md:flex items-center space-x-10 font-headline font-medium tracking-tight">
+<a class="text-[#6dddff] border-b-2 border-[#6dddff] pb-1 transition-all" href="#">Home</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors" href="#">Experience</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors" href="#">Projects</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-6 py-2.5 rounded-lg font-label font-bold tracking-tight hover:scale-95 duration-200 ease-out transition-all">
+                Resume
+            </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex flex-col justify-center items-center overflow-hidden px-8">
+<div class="absolute inset-0 dot-pattern pointer-events-none"></div>
+<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 blur-[120px] rounded-full"></div>
+<div class="relative z-10 max-w-5xl text-center">
+<div class="inline-flex items-center space-x-2 bg-surface-container-high px-4 py-2 rounded-full mb-8 border border-outline-variant/10">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label text-xs uppercase tracking-widest text-primary">System Integrity Status: Nominal</span>
+</div>
+<h1 class="text-5xl md:text-7xl lg:text-8xl font-headline font-extrabold tracking-tighter text-on-surface leading-[1.1] mb-8">
+                    Ensuring Software Excellence with <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container">Precision Testing.</span>
+</h1>
+<p class="text-lg md:text-xl text-on-surface-variant max-w-2xl mx-auto font-body leading-relaxed mb-12">
+                    Expertise in architecting robust API testing frameworks, seamless UI validation, and high-velocity automation powered by Selenium Python.
+                </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+<button class="w-full sm:w-auto bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-10 py-4 rounded-lg font-headline font-bold text-lg hover:shadow-[0_0_20px_rgba(109,221,255,0.3)] transition-all scale-100 hover:scale-[1.02] active:scale-95">
+                        View My Work
+                    </button>
+<button class="w-full sm:w-auto glass-card border border-outline-variant/20 px-10 py-4 rounded-lg font-headline font-semibold text-lg hover:bg-surface-container-highest transition-all">
+                        Technical Stack
+                    </button>
+</div>
+</div>
+<!-- Dashboard Preview / Abstract Grid -->
+<div class="mt-24 w-full max-w-6xl mx-auto">
+<div class="grid grid-cols-12 gap-4 auto-rows-[100px]">
+<div class="col-span-12 md:col-span-8 row-span-4 bg-surface-container-low rounded-xl overflow-hidden relative group p-1">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-50"></div>
+<img class="w-full h-full object-cover rounded-lg opacity-80 group-hover:opacity-100 transition-opacity duration-500" data-alt="Technical visualization of complex automation code in a dark mode IDE with highlighted syntax and terminal output" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF9Sbi7tjfgs8G_gBJ5lOkUVqJ6PPDI88PyaGe1KWlWipMnBVWDzCHxhEb5hypZ7zdoNZipWJFtMWZ5sOfU6q1HGvSAe8v7koUBxz0Vwj6EXggxsOv3KFbj9NJtmgZEra9tHy7XIlrWqicutLC1lXu9--1ca3TIoe-THDF-eHXIYMPmDUHu15KlNSni-qwefliNQf2TWtQvlbDCtbCY9TtnMgrc0V1rA422-ODNKan7KnW57T6lmxsIdXkuGMmO0XggomSxbkN77U"/>
+<div class="absolute bottom-6 left-6 z-20">
+<span class="font-label text-xs bg-primary/20 text-primary px-3 py-1 rounded-sm backdrop-blur-md">AUTOMATION_CORE</span>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4 row-span-2 bg-surface-container-high rounded-xl p-6 flex flex-col justify-between">
+<span class="material-symbols-outlined text-primary text-3xl">api</span>
+<div>
+<h3 class="font-headline font-bold text-xl">API Validation</h3>
+<p class="font-body text-sm text-on-surface-variant">Restful &amp; GraphQL architecture testing.</p>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4 row-span-2 bg-surface-container rounded-xl p-6 flex flex-col justify-between border border-outline-variant/5">
+<span class="material-symbols-outlined text-primary-fixed-dim text-3xl">terminal</span>
+<div class="font-label text-[10px] text-primary/40 space-y-1">
+<p>&gt; pytest --headful</p>
+<p>&gt; status: PASSED (12.4s)</p>
+<p>&gt; coverage: 98.4%</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Expertise Section -->
+<section class="py-32 bg-surface-container-low relative">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-xl">
+<h2 class="font-headline text-4xl md:text-5xl font-bold tracking-tight mb-6">Mastering the <span class="text-primary">Logic</span> of Quality.</h2>
+<p class="text-on-surface-variant text-lg">I bridge the gap between complex development cycles and flawless end-user experiences through rigorous methodology.</p>
+</div>
+<div class="font-label text-sm uppercase tracking-widest text-primary opacity-50 mb-2">Core_Competencies_v2.0</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="p-8 rounded-xl bg-surface hover:bg-surface-container-highest transition-all duration-300 group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary">web</span>
+</div>
+<h4 class="font-headline font-bold text-xl mb-4">UI Automation</h4>
+<p class="font-body text-on-surface-variant leading-relaxed">Developing scalable Selenium Python frameworks that simulate complex user journeys across diverse browser environments.</p>
+</div>
+<!-- Card 2 -->
+<div class="p-8 rounded-xl bg-surface hover:bg-surface-container-highest transition-all duration-300 group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary">settings_ethernet</span>
+</div>
+<h4 class="font-headline font-bold text-xl mb-4">End-to-End Testing</h4>
+<p class="font-body text-on-surface-variant leading-relaxed">Integrating CI/CD pipelines with automated regression suites to ensure every release meets the highest stability standards.</p>
+</div>
+<!-- Card 3 -->
+<div class="p-8 rounded-xl bg-surface hover:bg-surface-container-highest transition-all duration-300 group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-on-primary">monitoring</span>
+</div>
+<h4 class="font-headline font-bold text-xl mb-4">Performance Metrics</h4>
+<p class="font-body text-on-surface-variant leading-relaxed">Analyzing load patterns and stress testing APIs to guarantee system resilience under peak traffic conditions.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Stats Bar -->
+<section class="py-16 bg-surface">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="text-center">
+<div class="font-label text-primary text-4xl font-bold mb-2">500+</div>
+<div class="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant">Automated Test Cases</div>
+</div>
+<div class="text-center">
+<div class="font-label text-primary text-4xl font-bold mb-2">99.9%</div>
+<div class="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant">Deployment Reliability</div>
+</div>
+<div class="text-center">
+<div class="font-label text-primary text-4xl font-bold mb-2">0.5s</div>
+<div class="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant">API Response Threshold</div>
+</div>
+<div class="text-center">
+<div class="font-label text-primary text-4xl font-bold mb-2">12+</div>
+<div class="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant">Complex Frameworks Built</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#0b0e14] w-full py-12 border-t border-[#45484f]/15">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8 gap-8">
+<div class="text-lg font-black text-slate-100 font-headline">QA_ARCHITECT</div>
+<div class="flex space-x-12 font-['Space_Grotesk'] text-sm uppercase tracking-widest">
+<a class="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+<a class="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" href="#">GitHub</a>
+<a class="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" href="#">Documentation</a>
+</div>
+<div class="font-['Space_Grotesk'] text-xs uppercase tracking-widest text-slate-500">
+                © 2024 QA Architect. Built with Precision.
+            </div>
+</div>
+</footer>
+</body></html>

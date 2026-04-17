@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-fixed-dim": "#7da0ff",
+                    "on-background": "#ecedf6",
+                    "on-surface": "#ecedf6",
+                    "outline": "#73757d",
+                    "primary-fixed-dim": "#00c3eb",
+                    "primary": "#6dddff",
+                    "on-primary-fixed": "#002c37",
+                    "inverse-primary": "#00687e",
+                    "primary-fixed": "#00d2fd",
+                    "on-tertiary-container": "#001747",
+                    "surface-variant": "#22262f",
+                    "on-error": "#490006",
+                    "tertiary-container": "#6f94fa",
+                    "error-dim": "#d7383b",
+                    "on-tertiary-fixed-variant": "#003388",
+                    "on-secondary-container": "#cbd0e1",
+                    "surface-bright": "#282c36",
+                    "surface-dim": "#0b0e14",
+                    "on-secondary-fixed-variant": "#565b69",
+                    "primary-container": "#00d2fd",
+                    "tertiary-fixed": "#92aeff",
+                    "secondary-fixed-dim": "#cfd4e5",
+                    "on-surface-variant": "#a9abb3",
+                    "secondary": "#dde2f3",
+                    "secondary-fixed": "#dde2f3",
+                    "secondary-dim": "#cfd4e5",
+                    "surface-container-lowest": "#000000",
+                    "on-tertiary-fixed": "#001442",
+                    "primary-dim": "#00c3eb",
+                    "on-secondary": "#4c525f",
+                    "outline-variant": "#45484f",
+                    "surface-container-low": "#10131a",
+                    "inverse-on-surface": "#52555c",
+                    "tertiary-dim": "#759aff",
+                    "error-container": "#9f0519",
+                    "inverse-surface": "#f9f9ff",
+                    "on-secondary-fixed": "#393f4c",
+                    "surface": "#0b0e14",
+                    "on-primary-fixed-variant": "#004c5d",
+                    "on-tertiary": "#002363",
+                    "background": "#0b0e14",
+                    "tertiary": "#82a3ff",
+                    "on-primary": "#004c5e",
+                    "secondary-container": "#414754",
+                    "surface-tint": "#6dddff",
+                    "surface-container-highest": "#22262f",
+                    "surface-container": "#161a21",
+                    "on-primary-container": "#004352",
+                    "surface-container-high": "#1c2028",
+                    "error": "#ff716c",
+                    "on-error-container": "#ffa8a3"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Space Grotesk"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #0b0e14;
+            color: #ecedf6;
+            font-family: 'Inter', sans-serif;
+        }
+        .glass-card {
+            background: rgba(22, 26, 33, 0.7);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 bg-[#0b0e14]/70 backdrop-blur-xl bg-gradient-to-b from-[#10131a] to-transparent">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 h-20">
+<div class="text-xl font-bold tracking-tighter text-[#6dddff]">QA_ARCHITECT</div>
+<div class="hidden md:flex gap-10 font-['Inter'] font-medium tracking-tight">
+<a class="text-slate-400 hover:text-slate-100 transition-colors" href="#">Home</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors" href="#">Experience</a>
+<a class="text-[#6dddff] border-b-2 border-[#6dddff] pb-1" href="#">Projects</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors" href="#">Contact</a>
+</div>
+<button class="px-6 py-2 bg-gradient-to-br from-primary to-primary-container text-on-primary-container rounded-md font-label font-bold tracking-wide hover:primary_dim transition-all scale-95 hover:scale-100 duration-200">
+                Resume
+            </button>
+</div>
+</nav>
+<main class="max-w-7xl mx-auto px-8 py-20">
+<!-- Header Section -->
+<header class="mb-24 relative">
+<div class="absolute -top-24 -left-12 w-64 h-64 bg-primary/10 rounded-full blur-[120px]"></div>
+<div class="inline-block px-3 py-1 mb-6 rounded-sm bg-surface-container-highest border border-outline-variant/15">
+<span class="font-label text-xs uppercase tracking-[0.2em] text-primary">Technical Showcase</span>
+</div>
+<h1 class="text-6xl md:text-8xl font-black tracking-tighter text-on-background mb-8 leading-[0.9]">
+                ENGINEERED <br/> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-tertiary-dim">PRECISION.</span>
+</h1>
+<p class="max-w-2xl text-xl text-on-surface-variant leading-relaxed">
+                Exploring the boundary between development and quality through automated architectures, rigorous testing suites, and data-driven verification.
+            </p>
+</header>
+<!-- Projects Grid -->
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6">
+<!-- Project 1: API Automation (Large Bento) -->
+<div class="lg:col-span-8 group relative overflow-hidden rounded-xl bg-surface-container-low border border-outline-variant/10 hover:bg-surface-container transition-all duration-300">
+<div class="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity bg-[radial-gradient(circle_at_50%_50%,rgba(109,221,255,0.15),transparent_70%)]"></div>
+<div class="p-10 flex flex-col h-full justify-between relative z-10">
+<div>
+<div class="flex items-center gap-4 mb-8">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="api">api</span>
+<div class="h-[1px] flex-grow bg-outline-variant/20"></div>
+</div>
+<h3 class="text-4xl font-bold tracking-tight mb-4 text-on-surface">API Automation Framework</h3>
+<p class="text-on-surface-variant text-lg max-w-xl mb-8 leading-relaxed">
+                            A highly scalable REST API testing engine built with PyTest and Requests. Features dynamic environment switching, automated report generation via Allure, and seamless CI/CD integration.
+                        </p>
+</div>
+<div class="flex flex-wrap gap-2 font-label text-xs">
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">PYTHON</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">PYTEST</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">DOCKER</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">JENKINS</span>
+</div>
+</div>
+<div class="absolute top-0 right-0 w-1/3 h-full hidden lg:block grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-60 transition-all duration-500">
+<img alt="Network server and data lines" class="object-cover h-full w-full" data-alt="Abstract visualization of a server rack with glowing blue network cables and digital data signals in a dark environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBq39CaKgvaW2sQPaB4n0wAn19-kfOoNQtlA-LzjsfMp9b7D3Cdh7TctOkPsFKJ5-M9-549YN8M0Ir6U4cIndBj90ay7-3puDgURozIrsnaCmeWE51q4jOSWIR0WBm55YY0Oib5WkuHdI8gd9b3Z2pk-JZ2XhkoulevtP-7Jtl8bNvURiWU_406crgf2kv2rwa-FbXuTOKrTQgkwo0vnpz2Md5Ql5Fzerc3qhkWmJrenkbluiUt4IJyGcGuGqlRfPn-xQ7XV7wn_r0"/>
+</div>
+</div>
+<!-- Project 2: UI Regression -->
+<div class="lg:col-span-4 group relative overflow-hidden rounded-xl bg-surface-container-low border border-outline-variant/10 hover:bg-surface-container transition-all duration-300">
+<div class="p-10 flex flex-col h-full relative z-10">
+<span class="material-symbols-outlined text-primary mb-8" data-icon="shopping_cart">shopping_cart</span>
+<h3 class="text-2xl font-bold tracking-tight mb-4 text-on-surface leading-tight">UI Regression Suite for E-commerce</h3>
+<p class="text-on-surface-variant mb-12 flex-grow leading-relaxed">
+                        Comprehensive end-to-end testing suite using Playwright. Covers critical paths: checkout, user auth, and payment gateway simulations across multiple browser engines.
+                    </p>
+<div class="flex flex-wrap gap-2 font-label text-xs">
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">PLAYWRIGHT</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">TYPESCRIPT</span>
+</div>
+</div>
+</div>
+<!-- Project 3: Web Scraper -->
+<div class="lg:col-span-6 group relative overflow-hidden rounded-xl bg-surface-container-low border border-outline-variant/10 hover:bg-surface-container transition-all duration-300">
+<div class="p-10 flex flex-col md:flex-row gap-8 items-start relative z-10">
+<div class="flex-grow">
+<span class="material-symbols-outlined text-primary mb-6" data-icon="database">database</span>
+<h3 class="text-2xl font-bold tracking-tight mb-4 text-on-surface">Selenium-Python Web Scraper</h3>
+<p class="text-on-surface-variant mb-8 leading-relaxed">
+                            Engineered a robust data extraction tool that bypasses common anti-bot measures to monitor competitor pricing and availability for high-volume retail platforms.
+                        </p>
+<div class="flex flex-wrap gap-2 font-label text-xs">
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">SELENIUM</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">PYTHON</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">MONGODB</span>
+</div>
+</div>
+<div class="w-full md:w-48 h-48 rounded-lg overflow-hidden shrink-0 border border-outline-variant/10">
+<img alt="Code snippets on dark screen" class="object-cover h-full w-full" data-alt="Macro shot of clean computer code on a dark screen with glowing syntax highlighting in blues and greens" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDloof8mGJIun_URcSmbiYOfXkKmLQrgeoLr2KCEGLmLLx7oot-fHo0j8dVcBhvEfJNW-shXyffL27Fzmq4OLiOC89tVTBCWnP3HlQ3aJUTMQlIHQnQ92KSZgkOJWqig7n_zUqmOcSfyyuXNciJeFoMEoAbHymwp_E9VuTfA9kDJ-UVXSlnvpNN9dtCVOMllV4dnYGE2-uIedOOF1eec9vAlLcHZIhPqh6vaNxtSsEBhf3Nl2wj32PBFMTSHqkBh3gHSPZV9O555h4"/>
+</div>
+</div>
+</div>
+<!-- Project 4: Performance Testing (Asymmetric Small) -->
+<div class="lg:col-span-6 group relative overflow-hidden rounded-xl bg-surface-container-low border border-outline-variant/10 hover:bg-surface-container transition-all duration-300">
+<div class="p-10 flex flex-col h-full relative z-10">
+<div class="flex justify-between items-start mb-6">
+<span class="material-symbols-outlined text-primary" data-icon="speed">speed</span>
+<span class="font-label text-[10px] text-error-dim flex items-center gap-1 border border-error-container/30 px-2 py-0.5 rounded">
+<span class="w-1.5 h-1.5 rounded-full bg-error-dim animate-pulse"></span> SYSTEM CRITICAL
+                        </span>
+</div>
+<h3 class="text-2xl font-bold tracking-tight mb-4 text-on-surface">Load &amp; Stress Orchestrator</h3>
+<p class="text-on-surface-variant mb-8 leading-relaxed">
+                        Customized JMeter scripts integrated with Grafana for real-time visualization of system bottlenecks under 10k+ concurrent user loads.
+                    </p>
+<div class="mt-auto flex flex-wrap gap-2 font-label text-xs">
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">JMETER</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">GRAFANA</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary-dim border border-tertiary-dim/30">K6</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Stats Section -->
+<section class="mt-32 pt-20 border-t border-outline-variant/15 grid grid-cols-2 md:grid-cols-4 gap-12">
+<div>
+<div class="font-label text-xs text-primary mb-2 tracking-widest uppercase">Coverage</div>
+<div class="text-5xl font-black text-on-surface">98.4%</div>
+</div>
+<div>
+<div class="font-label text-xs text-primary mb-2 tracking-widest uppercase">Tests Automated</div>
+<div class="text-5xl font-black text-on-surface">2.5k+</div>
+</div>
+<div>
+<div class="font-label text-xs text-primary mb-2 tracking-widest uppercase">Success Rate</div>
+<div class="text-5xl font-black text-on-surface">99.9%</div>
+</div>
+<div>
+<div class="font-label text-xs text-primary mb-2 tracking-widest uppercase">CI/CD Speed</div>
+<div class="text-5xl font-black text-on-surface">-40%</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#0b0e14] mt-32 w-full py-12 border-t border-[#45484f]/15">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8">
+<div class="text-lg font-black text-slate-100 mb-6 md:mb-0">QA ARCHITECT</div>
+<div class="flex flex-col items-center md:items-end gap-4">
+<div class="flex gap-8 font-['Space_Grotesk'] text-sm uppercase tracking-widest">
+<a class="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+<a class="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" href="#">GitHub</a>
+<a class="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" href="#">Documentation</a>
+</div>
+<p class="text-slate-600 font-label text-[10px] tracking-tighter">© 2024 QA Architect. Built with Precision.</p>
+</div>
+</div>
+</footer>
+</body></html>

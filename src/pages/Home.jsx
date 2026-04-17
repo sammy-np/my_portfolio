@@ -1,0 +1,113 @@
+export default function Home() {
+  return (
+    <main>
+      <section className="relative min-h-[921px] flex flex-col justify-center items-center overflow-hidden px-8">
+        <div className="absolute inset-0 dot-pattern pointer-events-none"></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 blur-[120px] rounded-full"></div>
+        <div className="relative z-10 max-w-5xl text-center">
+          <div className="inline-flex items-center space-x-2 bg-surface-container-high px-4 py-2 rounded-full mb-8 border border-outline-variant/10">
+            <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            <span className="font-label text-xs uppercase tracking-widest text-primary">System Integrity Status: Nominal</span>
+          </div>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline font-extrabold tracking-tighter text-on-surface leading-[1.1] mb-8">
+            Ensuring Software Excellence with <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container">Precision Testing.</span>
+          </h1>
+          <p className="text-lg md:text-xl text-on-surface-variant max-w-2xl mx-auto font-body leading-relaxed mb-12">
+            Expertise in architecting robust API testing frameworks, seamless UI validation, and high-velocity automation powered by Selenium Python.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+            <button className="w-full sm:w-auto bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-10 py-4 rounded-lg font-headline font-bold text-lg hover:shadow-[0_0_20px_rgba(109,221,255,0.3)] transition-all scale-100 hover:scale-[1.02] active:scale-95">
+              View My Work
+            </button>
+            <button className="w-full sm:w-auto glass-card border border-outline-variant/20 px-10 py-4 rounded-lg font-headline font-semibold text-lg hover:bg-surface-container-highest transition-all">
+              Technical Stack
+            </button>
+          </div>
+        </div>
+
+        <div className="mt-24 w-full max-w-6xl mx-auto">
+          <div className="grid grid-cols-12 gap-4 auto-rows-[100px]">
+            <div className="col-span-12 md:col-span-8 row-span-4 bg-surface-container-low rounded-xl overflow-hidden relative group p-1">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-50"></div>
+              <img className="w-full h-full object-cover rounded-lg opacity-80 group-hover:opacity-100 transition-opacity duration-500" alt="Technical visualization of complex automation code in a dark mode IDE with highlighted syntax and terminal output" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF9Sbi7tjfgs8G_gBJ5lOkUVqJ6PPDI88PyaGe1KWlWipMnBVWDzCHxhEb5hypZ7zdoNZipWJFtMWZ5sOfU6q1HGvSAe8v7koUBxz0Vwj6EXggxsOv3KFbj9NJtmgZEra9tHy7XIlrWqicutLC1lXu9--1ca3TIoe-THDF-eHXIYMPmDUHu15KlNSni-qwefliNQf2TWtQvlbDCtbCY9TtnMgrc0V1rA422-ODNKan7KnW57T6lmxsIdXkuGMmO0XggomSxbkN77U"/>
+              <div className="absolute bottom-6 left-6 z-20">
+                <span className="font-label text-xs bg-primary/20 text-primary px-3 py-1 rounded-sm backdrop-blur-md">AUTOMATION_CORE</span>
+              </div>
+            </div>
+            <div className="col-span-12 md:col-span-4 row-span-2 bg-surface-container-high rounded-xl p-6 flex flex-col justify-between">
+              <span className="material-symbols-outlined text-primary text-3xl">api</span>
+              <div>
+                <h3 className="font-headline font-bold text-xl">API Validation</h3>
+                <p className="font-body text-sm text-on-surface-variant">Restful &amp; GraphQL architecture testing.</p>
+              </div>
+            </div>
+            <div className="col-span-12 md:col-span-4 row-span-2 bg-surface-container rounded-xl p-6 flex flex-col justify-between border border-outline-variant/5">
+              <span className="material-symbols-outlined text-primary-fixed-dim text-3xl">terminal</span>
+              <div className="font-label text-[10px] text-primary/40 space-y-1">
+                <p>&gt; pytest --headful</p>
+                <p>&gt; status: PASSED (12.4s)</p>
+                <p>&gt; coverage: 98.4%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-32 bg-surface-container-low relative">
+        <div className="max-w-7xl mx-auto px-8">
+          <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+            <div className="max-w-xl">
+              <h2 className="font-headline text-4xl md:text-5xl font-bold tracking-tight mb-6">Mastering the <span className="text-primary">Logic</span> of Quality.</h2>
+              <p className="text-on-surface-variant text-lg">I bridge the gap between complex development cycles and flawless end-user experiences through rigorous methodology.</p>
+            </div>
+            <div className="font-label text-sm uppercase tracking-widest text-primary opacity-50 mb-2">Core_Competencies_v2.0</div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="p-8 rounded-xl bg-surface hover:bg-surface-container-highest transition-all duration-300 group">
+              <div className="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+                <span className="material-symbols-outlined text-primary group-hover:text-on-primary">web</span>
+              </div>
+              <h4 className="font-headline font-bold text-xl mb-4">UI Automation</h4>
+              <p className="font-body text-on-surface-variant leading-relaxed">Developing scalable Selenium Python frameworks that simulate complex user journeys across diverse browser environments.</p>
+            </div>
+            <div className="p-8 rounded-xl bg-surface hover:bg-surface-container-highest transition-all duration-300 group">
+              <div className="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+                <span className="material-symbols-outlined text-primary group-hover:text-on-primary">settings_ethernet</span>
+              </div>
+              <h4 className="font-headline font-bold text-xl mb-4">End-to-End Testing</h4>
+              <p className="font-body text-on-surface-variant leading-relaxed">Integrating CI/CD pipelines with automated regression suites to ensure every release meets the highest stability standards.</p>
+            </div>
+            <div className="p-8 rounded-xl bg-surface hover:bg-surface-container-highest transition-all duration-300 group">
+              <div className="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-8 group-hover:bg-primary transition-colors">
+                <span className="material-symbols-outlined text-primary group-hover:text-on-primary">monitoring</span>
+              </div>
+              <h4 className="font-headline font-bold text-xl mb-4">Performance Metrics</h4>
+              <p className="font-body text-on-surface-variant leading-relaxed">Analyzing load patterns and stress testing APIs to guarantee system resilience under peak traffic conditions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-surface">
+        <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 lg:grid-cols-4 gap-12">
+          <div className="text-center">
+            <div className="font-label text-primary text-4xl font-bold mb-2">500+</div>
+            <div className="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant">Automated Test Cases</div>
+          </div>
+          <div className="text-center">
+            <div className="font-label text-primary text-4xl font-bold mb-2">99.9%</div>
+            <div className="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant">Deployment Reliability</div>
+          </div>
+          <div className="text-center">
+            <div className="font-label text-primary text-4xl font-bold mb-2">0.5s</div>
+            <div className="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant">API Response Threshold</div>
+          </div>
+          <div className="text-center">
+            <div className="font-label text-primary text-4xl font-bold mb-2">12+</div>
+            <div className="font-label text-[10px] uppercase tracking-tighter text-on-surface-variant">Complex Frameworks Built</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
