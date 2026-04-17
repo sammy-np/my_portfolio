@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <nav className="sticky top-0 w-full z-50 bg-[#0b0e14]/70 backdrop-blur-xl bg-gradient-to-b from-[#10131a] to-transparent">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-8 h-20">
-        <div className="text-xl font-bold tracking-tighter text-[#6dddff] font-headline">QA_ARCHITECT</div>
+        <div className="text-xl font-bold tracking-tighter text-[#6dddff] font-headline">Saiyam Basnet</div>
         <div className="hidden md:flex items-center space-x-10 font-headline font-medium tracking-tight">
           <Link
             to="/"

@@ -6,12 +6,12 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8 gap-8">
         <div className="text-lg font-black text-slate-100 font-headline">QA_ARCHITECT</div>
         <div className="flex space-x-12 font-['Space_Grotesk'] text-sm uppercase tracking-widest">
-          <Link className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" to="#">LinkedIn</Link>
-          <Link className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" to="#">GitHub</Link>
+          <Link className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" to="https://www.linkedin.com/in/saiyam-basnet07/">LinkedIn</Link>
+          <Link className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" to="https://github.com/sammy-np">GitHub</Link>
           <Link className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" to="#">Documentation</Link>
         </div>
         <div className="font-['Space_Grotesk'] text-xs uppercase tracking-widest text-slate-500">
-          © 2024 QA Architect. Built with Precision.
+          © 2026 QA Architect. Built with Precision.
         </div>
       </div>
     </footer>
