@@ -36,9 +36,13 @@ export default function Header() {
             Contact
           </Link>
         </div>
-        <button className="bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-6 py-2.5 rounded-lg font-label font-bold tracking-tight hover:scale-95 duration-200 ease-out transition-all">
+        <a 
+          href="/resume.pdf" 
+          download="Saiyam_Basnet_Resume.pdf"
+          className="bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-6 py-2.5 rounded-lg font-label font-bold tracking-tight hover:scale-95 duration-200 ease-out transition-all inline-block"
+        >
           Resume
-        </button>
+        </a>
       </div>
     </nav>
   );
