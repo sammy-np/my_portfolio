@@ -20,7 +20,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-label text-xs text-outline uppercase tracking-widest">GitHub</p>
-                    <p className="font-headline text-on-surface group-hover:text-primary transition-colors">/qa-architect-main</p>
+                    <p className="font-headline text-on-surface group-hover:text-primary transition-colors">/sammy-np</p>
                   </div>
                 </a>
                 <a className="flex items-center group" href="https://www.linkedin.com/in/saiyam-basnet07/">
