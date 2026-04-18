@@ -8,9 +8,9 @@ export default function Footer() {
           Saiyam Basnet
         </div>
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 font-['Space_Grotesk'] text-sm uppercase tracking-widest w-full min-[880px]:w-auto">
-          <Link className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" to="https://www.linkedin.com/in/saiyam-basnet07/">LinkedIn</Link>
-          <Link className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" to="https://github.com/sammy-np">GitHub</Link>
-          <Link className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" to="#">Documentation</Link>
+          <a className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" href="https://www.linkedin.com/in/saiyam-basnet07/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" href="https://github.com/sammy-np" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a className="text-slate-500 hover:text-[#6dddff] transition-colors opacity-80 hover:opacity-100" href="#">Documentation</a>
         </div>
         <div className="font-['Space_Grotesk'] text-xs uppercase tracking-widest text-slate-500 text-center min-[880px]:text-right">
           © 2026 QA Engineer. Built with Precision.
