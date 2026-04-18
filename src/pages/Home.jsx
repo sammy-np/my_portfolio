@@ -13,8 +13,7 @@ export default function Home() {
             Ensuring Software Excellence with <span className="block sm:inline text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container leading-normal sm:leading-[1.1]">Precision Testing.</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-on-surface-variant max-w-2xl mx-auto font-body leading-relaxed mb-8 md:mb-12 px-2 sm:px-0">
-            Expertise in architecting robust API testing frameworks, seamless UI validation, and high-velocity automation powered by Selenium Java.
-          </p>
+            Hands-on experience in API testing, UI validation, and building automation scripts using Selenium with Java and Cypress to ensure reliable and high-quality applications.          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full">
             <button className="w-full sm:w-auto bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-6 sm:px-8 md:px-10 py-3 md:py-4 rounded-lg font-headline font-bold text-base md:text-lg hover:shadow-[0_0_20px_rgba(109,221,255,0.3)] transition-all scale-100 hover:scale-[1.02] active:scale-95">
               View My Work
@@ -68,14 +67,14 @@ export default function Home() {
                 <span className="material-symbols-outlined text-primary group-hover:text-on-primary">web</span>
               </div>
               <h4 className="font-headline font-bold text-xl mb-3 md:mb-4">UI Automation</h4>
-              <p className="font-body text-sm md:text-base text-on-surface-variant leading-relaxed">Developing scalable Selenium Python frameworks that simulate complex user journeys across diverse browser environments.</p>
+              <p className="font-body text-sm md:text-base text-on-surface-variant leading-relaxed">Designing and maintaining Selenium-based automation scripts using Java to validate critical user flows and support efficient regression testing.</p>
             </div>
             <div className="p-6 md:p-8 rounded-xl bg-surface hover:bg-surface-container-highest transition-all duration-300 group">
               <div className="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-6 md:mb-8 group-hover:bg-primary transition-colors">
                 <span className="material-symbols-outlined text-primary group-hover:text-on-primary">settings_ethernet</span>
               </div>
               <h4 className="font-headline font-bold text-xl mb-3 md:mb-4">End-to-End Testing</h4>
-              <p className="font-body text-sm md:text-base text-on-surface-variant leading-relaxed">Integrating CI/CD pipelines with automated regression suites to ensure every release meets the highest stability standards.</p>
+              <p className="font-body text-sm md:text-base text-on-surface-variant leading-relaxed">Executing end-to-end testing across multiple modules to ensure seamless user experience and functional consistency throughout the application.</p>
             </div>
             <div className="p-6 md:p-8 rounded-xl bg-surface hover:bg-surface-container-highest transition-all duration-300 group">
               <div className="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-6 md:mb-8 group-hover:bg-primary transition-colors">

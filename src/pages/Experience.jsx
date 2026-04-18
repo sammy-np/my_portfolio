@@ -2,7 +2,7 @@ export default function Experience() {
   return (
     <main className="relative">
       <div className="absolute inset-0 dot-pattern pointer-events-none"></div>
-      
+
       <section className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 pt-16 md:pt-24 pb-12 md:pb-16 relative">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
           <div className="max-w-3xl w-full">
@@ -16,7 +16,7 @@ export default function Experience() {
           </div>
           <div className="hidden md:block">
             <div className="w-px h-32 bg-outline-variant/30 mb-4 mx-auto"></div>
-            <span className="font-label text-xs text-outline vertical-text rotate-180" style={{writingMode: 'vertical-rl'}}>VERIFIED_BUILD_v2.0.4</span>
+            <span className="font-label text-xs text-outline vertical-text rotate-180" style={{ writingMode: 'vertical-rl' }}>VERIFIED_BUILD_v2.0.4</span>
           </div>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function Experience() {
 
             <div className="md:col-span-7 group bg-surface-container p-8 rounded-xl hover:bg-surface-container-highest transition-all duration-300 relative overflow-hidden">
               <div className="absolute inset-0 opacity-10 pointer-events-none">
-                <img className="w-full h-full object-cover grayscale" alt="high contrast technical blueprint pattern" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArqY7zBTB-XXOSL844EAS2pBshH_du99GiZMtjM2Y5egowWRdgtPcx1qwxzSKLGsyu_HmKQoVvXvIGsA8zE2W4lzrQGNc0Hmx72L187H6lxVG_Y2Mxx5gQrP7j8pC0Ki3tECbKAjlMo33u0ih-72Gv37k6hv9AJj_i4lsNq9vYc5_Uzm6M9eEaYBvB2npiDom8e43e3JE2YO99idGT5VKO29GKqLhQgZKoTMacV0QKzJaaBLTd2V9sn9XN17R5o5TwMzAaZ8yxw6g"/>
+                <img className="w-full h-full object-cover grayscale" alt="high contrast technical blueprint pattern" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArqY7zBTB-XXOSL844EAS2pBshH_du99GiZMtjM2Y5egowWRdgtPcx1qwxzSKLGsyu_HmKQoVvXvIGsA8zE2W4lzrQGNc0Hmx72L187H6lxVG_Y2Mxx5gQrP7j8pC0Ki3tECbKAjlMo33u0ih-72Gv37k6hv9AJj_i4lsNq9vYc5_Uzm6M9eEaYBvB2npiDom8e43e3JE2YO99idGT5VKO29GKqLhQgZKoTMacV0QKzJaaBLTd2V9sn9XN17R5o5TwMzAaZ8yxw6g" />
               </div>
               <div className="relative z-10">
                 <span className="font-label text-xs text-primary mb-4 block">04 / EXPLORATORY ANALYSIS</span>
@@ -90,7 +90,7 @@ export default function Experience() {
             <div className="w-20 h-20 mb-6 bg-surface-container rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
               <span className="material-symbols-outlined text-4xl text-primary">terminal</span>
             </div>
-            <h4 className="font-headline font-bold text-xl mb-1">Python</h4>
+            <h4 className="font-headline font-bold text-xl mb-1">Java</h4>
             <p className="font-label text-xs text-on-surface-variant uppercase tracking-tighter">Core Language</p>
           </div>
           <div className="flex flex-col items-center text-center group">
@@ -104,7 +104,7 @@ export default function Experience() {
             <div className="w-20 h-20 mb-6 bg-surface-container rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
               <span className="material-symbols-outlined text-4xl text-primary">inventory_2</span>
             </div>
-            <h4 className="font-headline font-bold text-xl mb-1">Pytest</h4>
+            <h4 className="font-headline font-bold text-xl mb-1">TestNG</h4>
             <p className="font-label text-xs text-on-surface-variant uppercase tracking-tighter">Test Framework</p>
           </div>
           <div className="flex flex-col items-center text-center group">
@@ -120,7 +120,7 @@ export default function Experience() {
       <section className="mb-24 px-8 max-w-7xl mx-auto">
         <div className="bg-surface-container-high rounded-2xl p-12 relative overflow-hidden border border-outline-variant/10">
           <div className="absolute right-0 top-0 w-1/2 h-full opacity-20 hidden md:block">
-            <img className="w-full h-full object-cover" alt="clean abstract data visualization" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd4FdX6iA5_rs_u3Stb6zwGxEgI_GkiCmwp7z30BlRV-0XfHtzeTqssSDifldEkioEJPPvPsSNyfxztPS17Ufd6r9Ry28OQUmkntfvl8qjpdJCYzspyjTvZaMCQMxSo76ZtyoiixubdUl_x2ffaGlDllbfO4mxiQWOUcoe_0zZvhlii29VeUZZ5KNQYKqFS5tuj5YIweTkiWg0lVedgw7GsMtUefSYr8yZ-j1Lrry-0X0O2vk0IKjZZRXtcp3kEIvktqn0toCNxzA"/>
+            <img className="w-full h-full object-cover" alt="clean abstract data visualization" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd4FdX6iA5_rs_u3Stb6zwGxEgI_GkiCmwp7z30BlRV-0XfHtzeTqssSDifldEkioEJPPvPsSNyfxztPS17Ufd6r9Ry28OQUmkntfvl8qjpdJCYzspyjTvZaMCQMxSo76ZtyoiixubdUl_x2ffaGlDllbfO4mxiQWOUcoe_0zZvhlii29VeUZZ5KNQYKqFS5tuj5YIweTkiWg0lVedgw7GsMtUefSYr8yZ-j1Lrry-0X0O2vk0IKjZZRXtcp3kEIvktqn0toCNxzA" />
           </div>
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
