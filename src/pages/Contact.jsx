@@ -36,9 +36,8 @@ export default function Contact() {
 
     setIsSubmitting(true);
 
-    // Web3Forms API Integration
-    // To make this work: Go to https://web3forms.com/, enter your gmail, and replace "YOUR_ACCESS_KEY_HERE" with the key they email you.
-    const accessKey = "8b10ce8a-740c-40bf-bbc3-6eb8ca92dfc3";
+    // Web3Forms API Integration using Vite Environment Variables
+    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
