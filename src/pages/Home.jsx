@@ -13,7 +13,7 @@ export default function Home() {
             Ensuring Software Excellence with <span className="block sm:inline text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container leading-normal sm:leading-[1.1]">Precision Testing.</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-on-surface-variant max-w-2xl mx-auto font-body leading-relaxed mb-8 md:mb-12 px-2 sm:px-0">
-            Expertise in architecting robust API testing frameworks, seamless UI validation, and high-velocity automation powered by Selenium Python.
+            Expertise in architecting robust API testing frameworks, seamless UI validation, and high-velocity automation powered by Selenium Java.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full">
             <button className="w-full sm:w-auto bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-6 sm:px-8 md:px-10 py-3 md:py-4 rounded-lg font-headline font-bold text-base md:text-lg hover:shadow-[0_0_20px_rgba(109,221,255,0.3)] transition-all scale-100 hover:scale-[1.02] active:scale-95">
@@ -29,7 +29,7 @@ export default function Home() {
           <div className="grid grid-cols-12 gap-4 auto-rows-[100px]">
             <div className="col-span-12 md:col-span-8 row-span-4 bg-surface-container-low rounded-xl overflow-hidden relative group p-1">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-50"></div>
-              <img className="w-full h-full object-cover rounded-lg opacity-80 group-hover:opacity-100 transition-opacity duration-500" alt="Technical visualization of complex automation code in a dark mode IDE with highlighted syntax and terminal output" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF9Sbi7tjfgs8G_gBJ5lOkUVqJ6PPDI88PyaGe1KWlWipMnBVWDzCHxhEb5hypZ7zdoNZipWJFtMWZ5sOfU6q1HGvSAe8v7koUBxz0Vwj6EXggxsOv3KFbj9NJtmgZEra9tHy7XIlrWqicutLC1lXu9--1ca3TIoe-THDF-eHXIYMPmDUHu15KlNSni-qwefliNQf2TWtQvlbDCtbCY9TtnMgrc0V1rA422-ODNKan7KnW57T6lmxsIdXkuGMmO0XggomSxbkN77U"/>
+              <img className="w-full h-full object-cover rounded-lg opacity-80 group-hover:opacity-100 transition-opacity duration-500" alt="Technical visualization of complex automation code in a dark mode IDE with highlighted syntax and terminal output" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF9Sbi7tjfgs8G_gBJ5lOkUVqJ6PPDI88PyaGe1KWlWipMnBVWDzCHxhEb5hypZ7zdoNZipWJFtMWZ5sOfU6q1HGvSAe8v7koUBxz0Vwj6EXggxsOv3KFbj9NJtmgZEra9tHy7XIlrWqicutLC1lXu9--1ca3TIoe-THDF-eHXIYMPmDUHu15KlNSni-qwefliNQf2TWtQvlbDCtbCY9TtnMgrc0V1rA422-ODNKan7KnW57T6lmxsIdXkuGMmO0XggomSxbkN77U" />
               <div className="absolute bottom-6 left-6 z-20">
                 <span className="font-label text-xs bg-primary/20 text-primary px-3 py-1 rounded-sm backdrop-blur-md">AUTOMATION_CORE</span>
               </div>
