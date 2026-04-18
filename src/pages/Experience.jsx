@@ -3,14 +3,14 @@ export default function Experience() {
     <main className="relative">
       <div className="absolute inset-0 dot-pattern pointer-events-none"></div>
       
-      <section className="max-w-7xl mx-auto px-8 pt-24 pb-16 relative">
-        <div className="flex flex-col md:flex-row justify-between items-end gap-8">
-          <div className="max-w-3xl">
-            <span className="font-label text-primary uppercase tracking-[0.3em] text-sm mb-4 block">System validation specialist</span>
-            <h1 className="text-6xl md:text-8xl font-black font-headline tracking-tighter leading-[0.9] mb-8">
-              Precision <br/>Engineering.
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 pt-16 md:pt-24 pb-12 md:pb-16 relative">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
+          <div className="max-w-3xl w-full">
+            <span className="font-label text-primary uppercase tracking-[0.2em] sm:tracking-[0.3em] text-xs sm:text-sm mb-4 block break-words">System validation specialist</span>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black font-headline tracking-tighter leading-[0.95] md:leading-[0.9] mb-6 md:mb-8 break-words">
+              Precision <br className="hidden sm:block" />Engineering.
             </h1>
-            <p className="text-on-surface-variant text-lg md:text-xl leading-relaxed max-w-xl">
+            <p className="text-on-surface-variant text-base sm:text-lg md:text-xl leading-relaxed max-w-xl">
               Expert in architectural quality assurance, focusing on high-integrity systems through rigorous automated verification and lifecycle management.
             </p>
           </div>
